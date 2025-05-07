@@ -39,7 +39,7 @@ const Navbar = () => {
       <div className="w-1/4 justify-end items-center gap-3 font-inter font-bold hidden @3xl:flex">
         <a
           href="/signup"
-          className="flex flex-col items-center gap-0.5 px-3 pt-1.5 pb-0.5 text-[8px] text-slate-500 bg-slate-100 rounded-md"
+          className="flex flex-col items-center gap-0.5 px-3 pt-1.5 pb-0.5 text-[8px] text-slate-500 bg-slate-100 hover:bg-slate-200 rounded-md"
         >
           <UserIcon className="size-3 text-slate-600" />
           <p className="overflow-x-hidden text-nowrap text-ellipsis">Sign up</p>

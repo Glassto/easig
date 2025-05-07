@@ -7,7 +7,7 @@ const Button = ({ children, onClick, variant = "primary", link, className }) => 
       "flex items-center justify-center gap-3 px-6 -mr-1 font-bold text-md tracking-wide text-white button-gradient hover:opacity-85 border border-sky-500 hover:shadow-soft-blue",
     primary:
       "flex items-center justify-center gap-3 w-max px-8 font-bold text-md tracking-wide text-white button-gradient hover:opacity-85 border border-sky-500 shadow-soft-blue",
-    secondary: "px-6 font-semibold text-sm text-slate-500 bg-white border border-gray-200 hover:scale-101 shadow-soft-gray",
+    secondary: "px-6 font-semibold text-sm text-slate-500 bg-white border border-gray-200 hover:border-slate-300 shadow-soft-gray",
   };
 
   const classes = clsx(base, variants[variant], className);
