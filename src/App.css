@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap");
+@import "./styles/fonts.css";
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0c0c0c;
+  --color-secondary: #ddc6b6;
+  --color-accent: #f35216;
+  --color-accent-light: #ff9a75;
+
+  --blur-4xl: 96px;
+
+  --font-inter: Inter, sans-serif;
+  --font-oddval: Oddval, sans-serif;
+
+  --shadow-soft-gray: 0px 8px 8px -4px rgba(245, 245, 246, 1);
+  --shadow-soft-blue: 0px 8px 8px -4px rgba(183, 230, 251, 1);
+
+  --gradient-blue: linear-gradient(to bottom, #36bffa, #0ba5ec);
+
+  --background-image-hero-pattern: url("./dots-texture.png");
+}
+
+@layer components {
+  body {
+    @apply antialiased;
+  }
+
+  .button-gradient {
+    background-image: var(--gradient-blue);
+  }
+}
