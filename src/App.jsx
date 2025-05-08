@@ -1,9 +1,7 @@
-import { useState } from "react";
-import "./App.css";
-import Navbar from "./components/Navbar.jsx";
-import Hero from "./components/Hero.jsx";
-
-import AboutUs from "./components/AboutUs.jsx";
+import './App.css';
+import Navbar from './layouts/Navbar.jsx';
+import Hero from './sections/Hero.jsx';
+import AboutUs from './sections/AboutUs.jsx';
 
 function App() {
   return (

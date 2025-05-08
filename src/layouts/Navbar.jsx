@@ -1,12 +1,12 @@
-import React, { useState } from "react";
-import Button from "./Button.jsx";
-import { ArrowLongRightIcon, Bars3Icon, UserIcon, XMarkIcon } from "@heroicons/react/24/solid";
+import React, { useState } from 'react';
+import Button from '../components/Button.jsx';
+import { ArrowLongRightIcon, Bars3Icon, UserIcon, XMarkIcon } from '@heroicons/react/24/solid';
 
 const navLinks = [
-  { label: "Acasă", href: "#" },
-  { label: "Utile", href: "#" },
-  { label: "Despre noi", href: "#" },
-  { label: "Contact", href: "#" },
+  { label: 'Acasă', href: '#' },
+  { label: 'Utile', href: '#' },
+  { label: 'Despre noi', href: '#' },
+  { label: 'Contact', href: '#' },
 ];
 
 const Navbar = () => {
@@ -14,21 +14,21 @@ const Navbar = () => {
 
   return (
     <nav
-      className="@container fixed top-4 left-4 right-4 z-50 flex items-center p-3 h-14 border border-gray-200 shadow-soft-gray rounded-2xl bg-white"
+      className="shadow-soft-gray @container fixed top-4 right-4 left-4 z-50 flex h-14 items-center rounded-2xl border border-gray-200 bg-white p-3"
       aria-label="Navigare principală"
     >
       {/* Logo */}
-      <div className="w-1/4 flex items-center">
+      <div className="flex w-1/4 items-center">
         <a href="/" aria-label="Pagina principală">
-          <img src="/svg/LOGO.svg" alt="logo" className="h-5 ml-2" />
+          <img src="/svg/LOGO.svg" alt="logo" className="ml-2 h-5" />
         </a>
       </div>
 
       {/* Link-uri navigație - desktop */}
-      <ul className="w-1/2 justify-center items-center font-inter font-semibold text-slate-500 gap-2 hidden @3xl:flex">
+      <ul className="font-inter hidden w-1/2 items-center justify-center gap-2 font-semibold text-slate-500 @3xl:flex">
         {navLinks.map((link) => (
           <li key={link.label}>
-            <a href={link.href} className="px-4 py-1.5 text-sm hover:bg-slate-100 rounded-md transition-all duration-300">
+            <a href={link.href} className="rounded-md px-4 py-1.5 text-sm transition-all duration-300 hover:bg-slate-100">
               {link.label}
             </a>
           </li>
@@ -36,10 +36,10 @@ const Navbar = () => {
       </ul>
 
       {/* Acțiuni - desktop */}
-      <div className="w-1/4 justify-end items-center gap-3 font-inter font-bold hidden @3xl:flex">
+      <div className="font-inter hidden w-1/4 items-center justify-end gap-3 font-bold @3xl:flex">
         <a
           href="/signup"
-          className="flex flex-col items-center gap-0.5 px-3 pt-1.5 pb-0.5 text-[8px] text-slate-500 bg-slate-100 hover:bg-slate-200 rounded-md"
+          className="flex flex-col items-center gap-0.5 rounded-md bg-slate-100 px-3 pt-1.5 pb-0.5 text-[8px] text-slate-500 hover:bg-slate-200"
         >
           <UserIcon className="size-3 text-slate-600" />
           <p className="overflow-x-hidden text-nowrap text-ellipsis">Sign up</p>
@@ -52,7 +52,7 @@ const Navbar = () => {
 
       {/* Buton hamburger - mobil */}
       <button
-        className="ml-auto @3xl:hidden p-2 rounded"
+        className="ml-auto rounded p-2 @3xl:hidden"
         aria-label="Deschide meniul"
         aria-expanded={menuOpen}
         aria-controls="mobile-menu"
@@ -65,14 +65,14 @@ const Navbar = () => {
       {menuOpen && (
         <div
           id="mobile-menu"
-          className="absolute top-16 left-0 right-0 mx-1 bg-white border border-gray-200 rounded-2xl shadow-soft-gray flex flex-col items-center px-2 py-2 gap-2 @3xl:hidden"
+          className="shadow-soft-gray absolute top-16 right-0 left-0 mx-1 flex flex-col items-center gap-2 rounded-2xl border border-gray-200 bg-white px-2 py-2 @3xl:hidden"
         >
-          <ul className="flex flex-col font-inter font-semibold text-sm text-slate-500 gap-2 w-full items-center">
+          <ul className="font-inter flex w-full flex-col items-center gap-2 text-sm font-semibold text-slate-500">
             {navLinks.map((link) => (
               <li key={link.label} className="w-full">
                 <a
                   href={link.href}
-                  className="block w-full px-4 py-2 text-center hover:bg-slate-100 rounded-lg transition-all duration-300"
+                  className="block w-full rounded-lg px-4 py-2 text-center transition-all duration-300 hover:bg-slate-100"
                   onClick={() => setMenuOpen(false)}
                 >
                   {link.label}
@@ -82,7 +82,7 @@ const Navbar = () => {
           </ul>
           <a
             href="/login"
-            className="block w-full mt-6 px-4 py-2 font-inter font-semibold text-sm text-slate-500 text-center hover:bg-slate-100 rounded-md transition-all duration-300"
+            className="font-inter mt-6 block w-full rounded-md px-4 py-2 text-center text-sm font-semibold text-slate-500 transition-all duration-300 hover:bg-slate-100"
             onClick={() => setMenuOpen(false)}
           >
             Log In
