@@ -19,8 +19,8 @@
 
   --gradient-blue: linear-gradient(to bottom, #36bffa, #0ba5ec);
 
-  --background-image-hero-pattern: url('./dots-texture.png');
-  --background-image-courses: url('./courses-background.png');
+  --background-image-hero-pattern: url('../dots-texture.png');
+  --background-image-courses: url('../courses-background.png');
 }
 
 @layer components {

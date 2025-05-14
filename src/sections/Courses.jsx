@@ -10,8 +10,8 @@ const Courses = () => {
       <div className="bg-courses absolute z-30 h-full w-full bg-cover bg-center" />
 
       <div className="relative z-40 h-max bg-gradient-to-b from-transparent to-[#101323] px-6 md:px-12 lg:px-16">
-        <img src="/svg/small-vector.svg" alt="" className="blur-4xl absolute top-50 left-24 z-40 h-max w-max" />
-        <img src="/svg/small-vector.svg" alt="" className="blur-4xl absolute right-6 bottom-32 z-40 h-max w-max" />
+        <img src="svg/small-vector.svg" alt="" className="blur-4xl absolute top-50 left-24 z-40 h-max w-max" />
+        <img src="svg/small-vector.svg" alt="" className="blur-4xl absolute right-6 bottom-32 z-40 h-max w-max" />
 
         <Breadcrump>Cursuri</Breadcrump>
         <SectionHeader title="Cursurile noastre sunt optimizate pentru o învățare eficientizată:" color="text-white" />

@@ -20,7 +20,7 @@ const Navbar = () => {
       {/* Logo */}
       <div className="flex w-1/4 items-center">
         <a href="/" aria-label="Pagina principală">
-          <img src="/svg/LOGO.svg" alt="logo" className="ml-2 h-5" />
+          <img src="svg/LOGO.svg" alt="logo" className="ml-2 h-5" />
         </a>
       </div>
 

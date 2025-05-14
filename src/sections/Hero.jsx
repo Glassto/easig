@@ -5,8 +5,8 @@ const Hero = () => {
     <section className="relative flex h-200 flex-col overflow-hidden border-b border-gray-200 bg-white shadow-[inset_0px_-4px_6px_-2px_rgba(0,_0,_0,_0.1)]">
       <div className="bg-hero-pattern absolute -z-0 h-full w-full bg-cover bg-center" />
 
-      <img src="/svg/small-vector.svg" alt="" className="blur-4xl absolute top-50 left-24 z-0 h-max w-max" />
-      <img src="/svg/big-vector.svg" alt="" className="blur-4xl absolute right-6 -bottom-32 z-0 h-max w-max" />
+      <img src="svg/small-vector.svg" alt="" className="blur-4xl absolute top-50 left-24 z-0 h-max w-max" />
+      <img src="svg/big-vector.svg" alt="" className="blur-4xl absolute right-6 -bottom-32 z-0 h-max w-max" />
 
       <div className="relative z-10 mx-auto max-w-6xl px-6 pt-30 text-center md:pt-44">
         <h1 className="font-oddval pb-6 text-4xl leading-tight font-bold text-gray-900 md:text-6xl">
@@ -27,7 +27,7 @@ const Hero = () => {
       </div>
 
       <div className="relative z-10 mx-auto w-full max-w-7xl flex-1 overflow-hidden rounded-t-xl bg-slate-300 px-1 pt-1 shadow-2xl">
-        <img src="/dashboard.png" alt="Captură platformă eASIG" className="h-full w-full rounded-t-lg object-cover object-top" />
+        <img src="dashboard.png" alt="Captură platformă eASIG" className="h-full w-full rounded-t-lg object-cover object-top" />
         <div className="pointer-events-none absolute right-0 bottom-0 left-0 h-20 bg-gradient-to-t from-black/10 to-transparent" />
       </div>
     </section>
