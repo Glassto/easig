@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className="shadow-soft-gray @container fixed top-4 right-4 left-4 z-50 flex h-14 items-center rounded-2xl border border-gray-200 bg-white p-3"
+      className="shadow-soft-gray @container fixed top-4 right-4 left-4 z-20 flex h-14 items-center rounded-2xl border border-gray-200 bg-white p-3"
       aria-label="Navigare principală"
     >
       {/* Logo */}
