@@ -1,12 +1,42 @@
-# React + Vite
+# 🧠 Platformă Educațională în Domeniul Asigurărilor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aceasta este o platformă online dedicată educației în domeniul asigurărilor, aprobată de ASF (Autoritatea de Supraveghere Financiară) și ISF (Institutul de Studii Financiare). Utilizatorii pot accesa cursuri, statistici de progres, certificate și teste grilă într-un mediu modern și intuitiv.
 
-Currently, two official plugins are available:
+## 🚀 Funcționalități principale
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ Autentificare și înregistrare cu email/parolă
+- 🎓 Cursuri online structurate pe capitole și subcapitole
+- 📊 Statistici de progres personalizate
+- 📝 Teste grilă cu condiții de acces
+- 📜 Certificate: valabile, expirate sau în curs de expirare
+- 🔔 Notificări în timp real (ex. expirare certificate, cursuri noi)
+- 🧾 Dashboard personal cu informații relevante
+- 🌙 Suport pentru mod întunecat (Dark Mode)
 
-## Expanding the ESLint configuration
+## 🛠️ Tehnologii utilizate (în progres)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Tailwind CSS
+- JavaScript
+- Heroicons
+- Appwrite (în progres)
+
+## 📌 TODO
+
+- [ ] Implementarea completă a sistemului de autentificare (logare și înregistrare), cu validare și feedback pentru utilizatori
+- [ ] Crearea unei pagini de **homepage** atractive și funcționale:
+  - Prezentarea platformei și a beneficiilor
+  - Call-to-action-uri pentru înscriere/autentificare
+  - Testimoniale și logo-uri instituționale (ASF, ISF)
+- [ ] Dezvoltarea unui **dashboard personalizat** pentru utilizatori:
+  - Mesaj de întâmpinare și progres general
+  - Carduri cu informații rapide (ex: ore parcurse, cursuri active, certificate)
+  - Zona de notificări și alerte (ex: certificate care urmează să expire)
+- [ ] Implementarea secțiunii de **cursuri și progres**:
+  - Listarea cursurilor înscrise
+  - Afișarea orelor parcurse, testelor disponibile și statusului certificatului
+- [ ] Integrare sistem de generare și descărcare a certificatelor
+- [ ] Dezvoltare modul de testare cu grile, temporizator și rezultate
+- [ ] Implementarea secțiunii de **statistici personale** pentru utilizatori
+- [ ] Optimizare pentru SEO și accesibilitate (WCAG)
+- [ ] Localizare completă în limba română și suport multilingv
