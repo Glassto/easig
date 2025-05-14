@@ -24,7 +24,7 @@ Aceasta este o platformă online dedicată educației în domeniul asigurărilor
 ## 📌 TODO
 
 - [ ] Implementarea completă a sistemului de autentificare (logare și înregistrare), cu validare și feedback pentru utilizatori
-- [ ] Crearea unei pagini de **homepage** atractive și funcționale:
+- [ ] Crearea unei pagini de **homepage** atractivă și funcțională:
   - Prezentarea platformei și a beneficiilor
   - Call-to-action-uri pentru înscriere/autentificare
   - Testimoniale și logo-uri instituționale (ASF, ISF)
