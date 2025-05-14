@@ -40,3 +40,11 @@ Aceasta este o platformă online dedicată educației în domeniul asigurărilor
 - [ ] Implementarea secțiunii de **statistici personale** pentru utilizatori
 - [ ] Optimizare pentru SEO și accesibilitate (WCAG)
 - [ ] Localizare completă în limba română și suport multilingv
+
+## 🧑‍💻 Contribuții
+
+Contribuțiile sunt binevenite! Deschide un issue sau un pull request cu îmbunătățiri sau sugestii.
+
+## 📄 Licență
+
+Distribuit sub licența MIT. Vezi fișierul LICENSE pentru mai multe detalii.
