@@ -4,7 +4,7 @@ import { ArrowLongRightIcon } from '@heroicons/react/24/solid';
 import Button from '../components/Button.jsx';
 import FeaturesCard from '../components/FeaturesCard.jsx';
 import InfoCard from '../components/InfoCard.jsx';
-import { featuresCard, infoCard } from '../data/aboutUsData';
+import { featuresCard, infoCard } from '../data/aboutUsData.js';
 
 const AboutUs = () => {
   return (

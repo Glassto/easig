@@ -9,10 +9,10 @@ const Hero = () => {
       <img src="svg/big-vector.svg" alt="" className="blur-4xl absolute right-6 -bottom-32 z-0 h-max w-max" />
 
       <div className="relative z-10 mx-auto max-w-6xl px-6 pt-30 text-center md:pt-44">
-        <h1 className="font-oddval pb-6 text-4xl leading-tight font-bold text-gray-900 md:text-6xl">
+        <h1 className="font-oddval pb-6 text-3xl leading-tight font-bold text-gray-900 sm:text-4xl md:text-6xl">
           Educație în domeniul asigurărilor aprobată de ASF & ISF
         </h1>
-        <p className="font-inter text-md mx-auto max-w-4xl font-semibold text-gray-600 md:text-lg">
+        <p className="font-inter mx-auto max-w-4xl text-sm font-semibold text-gray-600 md:text-lg">
           Platformă de e-learning aprobată de Autoritatea de Supraveghere Financiară (ASF), dobândirea cunoștințelor necesare pentru
           a activa în domeniul asigurărilor și/sau reasigurărilor.
         </p>

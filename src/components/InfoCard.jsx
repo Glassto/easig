@@ -10,9 +10,9 @@ const InfoCard = ({ title, subtitle, description, variant = 'left' }) => {
   return (
     <div className={variants[variant]}>
       <div className="space-y-3">
-        <h4 className="font-oddval w-full text-3xl text-gray-900 sm:text-3xl">{title}</h4>
-        <p className="font-inter text-sm font-semibold text-balance text-slate-700 sm:text-base">{subtitle}</p>
-        <p className="font-inter mt-7 text-sm whitespace-pre-line text-zinc-600 sm:text-base">{description}</p>
+        <h4 className="font-oddval w-full text-2xl text-gray-900 sm:text-3xl">{title}</h4>
+        <p className="font-inter text-sm font-semibold text-balance text-slate-700">{subtitle}</p>
+        <p className="font-inter mt-7 text-sm whitespace-pre-line text-zinc-600">{description}</p>
       </div>
     </div>
   );

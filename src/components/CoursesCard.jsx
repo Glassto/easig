@@ -1,3 +1,4 @@
+import React from 'react';
 import Button from './Button';
 import { UserIcon, ShoppingBagIcon } from '@heroicons/react/24/solid';
 
@@ -7,7 +8,7 @@ const CoursesCard = ({ title, description, buyers, price }) => {
       <div className="h-full rounded-lg bg-white px-5 py-6">
         <div className="flex h-full flex-col gap-12">
           <div className="flex h-4/5 flex-col gap-4">
-            <h4 className="font-oddval text-xl text-gray-900">{title}</h4>
+            <h4 className="font-oddval line-clamp-1 text-xl text-gray-900">{title}</h4>
             <p className="font-inter text-sm text-zinc-600">{description}</p>
           </div>
           <div className="flex h-1/5 flex-col gap-2">

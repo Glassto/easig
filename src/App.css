@@ -28,6 +28,11 @@
     @apply antialiased;
   }
 
+  img {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+  }
+
   .button-gradient {
     background-image: var(--gradient-blue);
   }
