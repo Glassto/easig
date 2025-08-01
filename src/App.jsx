@@ -9,11 +9,11 @@ import Newsletter from './sections/Newsletter.jsx';
 function App() {
   return (
     <main>
-      {/* <Navbar /> */}
-      {/* <Hero /> */}
-      {/* <AboutUs /> */}
-      {/* <Courses /> */}
-      {/* <FAQ /> */}
+      <Navbar />
+      <Hero />
+      <AboutUs />
+      <Courses />
+      <FAQ />
     </main>
   );
 }

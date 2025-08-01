@@ -85,7 +85,7 @@ const FAQ = () => {
           </div>
           {faqData.map((question) => {
             return (
-              <button key={question.id} className="flex flex-col gap-10">
+              <div key={question.id} className="flex flex-col gap-10">
                 <div className="flex flex-col justify-center">
                   <button
                     onClick={() => {
@@ -108,7 +108,7 @@ const FAQ = () => {
                     <p className={`font-inter overflow-y-hidden text-start font-medium text-slate-600`}>{question.answer}</p>
                   </div>
                 </div>
-              </button>
+              </div>
             );
           })}
         </section>
